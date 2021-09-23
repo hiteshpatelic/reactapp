@@ -1,0 +1,23 @@
+.dashboard{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(240, 248, 255, 0.26);
+    display: grid;
+    grid-template-columns: 280px 1fr;
+}
+.dashboard .sidebar{
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.185);
+}
+.dashboard .content{
+    display: grid;
+    grid-template-rows: 80px 1fr 80px;
+}
+.header, .footer{
+    padding: 10px 25px;
+}
+.content .content-body{
+    padding: 25px;
+    overflow-y: scroll;
+}
+

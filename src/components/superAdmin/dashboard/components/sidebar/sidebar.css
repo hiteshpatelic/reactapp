@@ -1,0 +1,29 @@
+.menu{
+    padding: 10px 25px;
+}
+.navtitle{
+    padding: 15px ;
+    opacity: 0.5;
+    background-color: rgba(49, 49, 49, 0.24);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.navLink{
+    padding: 15px 0;
+}
+.navLink li{
+    list-style: none;
+    font-weight: 500;
+    padding: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.navLink li:hover{
+    background-color: #7366ff50;
+    border-radius: 5px;
+}
